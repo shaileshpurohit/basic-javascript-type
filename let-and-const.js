@@ -1,8 +1,8 @@
-// Core Syntax
-
 const name = "shailesh";
 let age = 24;
 const hasHobbies = true;
+
+age = 35;
 
 function summarizeUser(userName, userAge, userHasHobby) {
   return (
@@ -10,15 +10,9 @@ function summarizeUser(userName, userAge, userHasHobby) {
     userName +
     ", age is " +
     userAge +
-    " and the user has hobbies " +
+    " and the user has hobbies: " +
     userHasHobby
   );
 }
-
-// const add = (a, b) => a + b;
-// const addOne = (a) => 1 + 2;
-const addRandom = () => 1 + 2;
-
-console.log(addRandom());
 
 console.log(summarizeUser(name, age, hasHobbies));
