@@ -1,8 +1,8 @@
 // Core Syntax
 
-var name = "shailesh";
-var age = 24;
-var hasHobbies = true;
+const name = "shailesh";
+let age = 24;
+const hasHobbies = true;
 
 function summarizeUser(userName, userAge, userHasHobby) {
   return (
