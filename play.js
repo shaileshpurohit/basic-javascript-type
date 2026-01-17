@@ -15,4 +15,10 @@ function summarizeUser(userName, userAge, userHasHobby) {
   );
 }
 
+// const add = (a, b) => a + b;
+// const addOne = (a) => 1 + 2;
+const addRandom = () => 1 + 2;
+
+console.log(addRandom());
+
 console.log(summarizeUser(name, age, hasHobbies));
